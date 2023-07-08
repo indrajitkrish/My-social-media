@@ -1,38 +1,190 @@
-.App {
+
+.MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv{
+  width:2px;
+  height:2px;
+}
+.profile-picture{
+  width:2rem;
+  height:2rem;
+  border-radius: 50%;
+}
+#heart{
+  font-size: 36px;
+}
+.css-vubbuv {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(255 61 100/var(--tw-text-opacity));
+}
+.bg-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 43 63/var(--tw-bg-opacity));
+}
+.rounded-full:hover {
+  border-radius: 999px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.home-grid{
+  display: grid;
+  grid-template-columns: 250px auto 250px;
+}
+.likeandbookmark-container{
+  margin: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  position: relative;
+  display: inline-block;
+}
+.container:last-child{
+  margin: 0 20px;
+}
+.dropdown {
+  top: 100%;
+  right: 0;
+  width: 200px;
+  z-index: -2;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 8px 12px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+}
+.login-container{
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin:100px 600px;
+  width:20%;
+}
+.toggle-button{
+  width:100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.heading{
+  border-bottom:2px solid black ;
+}
+.login-headers{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.LandS-div{
+display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login{
+  padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+  width:85%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.btn-login{
+  width:100%;
+  padding: 10px;
+  margin:5px;
+  background-color: white;
+}
+.main-tab{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin:0px 10px;
+}
+.header-home{
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.newpost-container{
+  padding: 10px;
+  width:100%;
+  border-bottom: 1px solid black;
+}
+.feed-container{
+  padding: 10px;
+  width:100%;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 50px auto;
+}
+.getnewpost-container{
+  width:85%;
+  padding: 5px;
+}
+.hidden{
+  color:white;
+}
+.post-button{
+  padding: 5px;
+  margin:5px;
+  background-color: white;
+  border-radius: 10px;
+}
+.filter-container{
+  padding: 10px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.filter-container button{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.right-container{
+  text-align: center;
+}
+.side-tab{
+  text-align: center;
+}
+.user-data-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.user-content{
+  padding: 10px;
+  padding-right: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.username-profile{
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.userprofile{
+  display: flex;
+}
+.username-and-edit{
+  display: flex;
+  justify-content: space-between;
+  margin-right:20px;
+}
+.userAt{
+display: flex;
+flex-direction: column;
+}
+.boldFont{
+  font-weight: bold;
+  font-size: larger;
 }
