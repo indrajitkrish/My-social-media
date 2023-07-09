@@ -15,9 +15,7 @@ export function BookMarkProvider({children})
               method: 'POST',
               headers : {authorization : localStorage.getItem('encodedToken')},
             })
-            console.log("addbookmark")
-
-            //console.log(response);
+          console.log(response);
             //console.log(JSON.parse(response._bodyInit).bookmarks);
       //const bookMarksId = JSON.parse(response._bodyInit).bookmarks;
       handlegetPost1(id);
@@ -35,7 +33,7 @@ export function BookMarkProvider({children})
           method: 'POST',
           headers : {authorization : localStorage.getItem('encodedToken')},
         })
-        console.log("deletepost");
+        console.log(response);
   handlegetPost2(id);
       } 
       catch(error)

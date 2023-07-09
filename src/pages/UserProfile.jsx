@@ -34,7 +34,7 @@ export function UserProfile()
     {
        getUser(loggedUserId);
        getUserPost(loggedUser);
-    },[])
+    },[getUser, getUserPost, loggedUser, loggedUserId])
     
 
     console.log(currentUser);

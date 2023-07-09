@@ -4,7 +4,7 @@ import { PostContext } from "./PostProvider";
 export const LikeContext = createContext();
 export function LikeProvider({children})
 {
-const {userFeed,setUserFeed,userFeed1,setUserFeed1} = useContext(PostContext);
+const {setUserFeed,userFeed1,setUserFeed1} = useContext(PostContext);
     const likeHandler = async(id) =>
     {
    

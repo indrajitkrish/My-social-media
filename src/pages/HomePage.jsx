@@ -119,6 +119,7 @@ console.log(loggedUserFeed);
       username: "adarshbalika",
       createdAt: "15 March,2023",
     };
+    console.log(image);
     const updatecontent = { ...newObj, content: newPost };
     setUserFeed((obj) => [...obj, updatecontent]);
   }
