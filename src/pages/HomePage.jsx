@@ -12,7 +12,7 @@ import { BookMarkContext } from "../context/BookMarkProvider";
 import { RightSideTab } from "../Components/RightSideTab";
 export function HomePage() {
   const [newPost, setNewPost] = useState("");
-  const [image, setImage] = useState(null);
+ const [image, setImage] = useState(null);
   const { likeHandler, disLikeHandler } = useContext(LikeContext);
   const {
     userFeed,
